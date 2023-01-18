@@ -1,0 +1,162 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="w3.css">
+
+<div class="w3-container w3-red w3-card-4">
+	<img src='logoMU.png' width='50px' height='50px' style='float: left; margin:5px ' >
+	<h2>Manchester United Website</h2> 
+</div>
+
+
+<div class="w3-container w3-white w3-card-4">
+<center>
+	<img src='banner.png' width='100%'>
+</div>
+
+<div class="w3-bar w3-black">
+	<button class="w3-bar-item w3-button" onclick="openKota('Home')">Beranda</button> 
+	<div class='w3-dropdown-hover'>
+		<button class='w3-button'>Tentang Klub</button>
+			<div class='w3-dropdown-content w3-bar-block w3-card-4'>
+				<button class='w3-bar-item w3-button' onclick="openKota('Sejarah')">Sejarah</button>
+				<button class='w3-bar-item w3-button' onclick="openKota('Stadion')">Stadion</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('Trofi')">Trofi</button> 
+				<button class="w3-bar-item w3-button" onclick="openKota('Sponsor')">Sponsor Club</button> 
+			</div>
+	</div>
+	<button class="w3-bar-item w3-button" onclick="openKota('Berita')">Berita</button> 
+	<button class="w3-bar-item w3-button" onclick="openKota('Toko')">Toko</button> 
+	<button class="w3-bar-item w3-button" onclick="openKota('Jadwal')">Jadwal Pertandingan</button> 
+	<button class="w3-bar-item w3-button" onclick="openKota('Pemilik')">Pemilik Saham</button>  
+	<button class="w3-bar-item w3-button" onclick="openKota('By')">Web By</button>  
+</div>
+
+
+<div id="Home" class="w3-container kota "  style="display:block"> 
+<center>
+	<h2>Selamat Datang Di Website</h2>
+	<img src='logoMU.png' width='150px' height='150px'>
+	<h2>Ayoo Kenal lebih dalam tentang Klub ini</h2>
+</div>
+
+<div id="Sejarah" class="w3-container kota w3-animate-top"  style="display:none">
+<center> 
+	<h2>Sejarah Manchaster United</h2>
+	<img src='logoMU.png' width='150px' height='150px'>
+	<p>
+		Manchester United Football Club adalah sebuah klub sepak bola profesional yang berbasis di Old Trafford, Manchester Raya, yang bermain di Liga Utama Inggris dengan gelar Liga Utama Inggris terbanyak sepanjang masa. Didirikan sebagai Newton Heath LYR Football Club pada tahun 1878, klub ini berganti nama menjadi Manchester United pada 1902 dan pindah ke Old Trafford pada tahun 1910.
+	</P>
+</div>
+
+<div id="Trofi" class="w3-container kota w3-animate-bottom"  style="display:none">
+<center> 
+	<h2>Trofi Yang telah didapatkan</h2>
+	<img src='trofi.jpg' width='250px'>
+	<p>
+		Manchester United telah memenangkan banyak trofi di sepak bola Inggris, termasuk rekor 20 gelar Liga, 12 Piala FA,[3] lima Piala Liga dan rekor 21 FA Community Shield. Klub ini juga telah memenangkan tiga Piala Eropa, satu Piala UEFA, satu Piala Winners UEFA, satu Piala Super UEFA, satu Piala Interkontinental dan satu Piala Dunia Antarklub FIFA. Pada 1998-1999, klub memenangkan treble dari Liga Premier, Piala FA dan Liga Champions, prestasi belum pernah terjadi sebelumnya untuk klub Inggris. Manchester United merupakan salah satu klub terbesar di Liga Utama Inggris sepanjang masa.
+	</p>
+</div>
+
+<div id="Stadion" class="w3-container kota w3-animate-bottom"  style="display:none">
+<center> 
+	<h2>Manchaster United Bermarkas dimana?</h2>
+	<h2>Manchaster United Bermarkas di Stadion Old Trafford</h2>
+	<img src='stadion.jpg' width='350px'>
+	<p>
+		Old Trafford adalah sebuah stadion sepak bola yang berlokasi di Old Trafford, Greater Manchester, Inggris, dan merupakan markas klub Manchester United. Dengan kapasitas sekitar 76.000 kursi,[2] stadion ini merupakan stadion terbesar ketiga dan stadion sepak bola terbesar kedua di Inggris setelah Stadion Wembley, serta stadion kesembilan terbesar di Eropa.[3]Stadion ini terletak sekitar 05 mil (8.000 m) dari Lapangan Kriket Old Trafford dan stasiun trem terdekat.
+		Old Trafford yang dijuluki "The Theatre of Dreams" oleh Sir Bobby Charlton,[4] telah menjadi markas MU sejak 1910, walau sejak 1941 hingga 1949, klub berbagi Maine Road dengan rival lokal Manchester City pasca kerusakan akibat pengeboman pada Perang Dunia II. Old Trafford mengalami beberapa kali ekspansi pada 1990-an dan 2000-an, termasuk penambahan tambahan tingkat di Tribune Utara, Barat, dan Timur, yang membuat stadion kembali ke kapasitas aslinya, 80.000. Ekspansi ke depannya dapat termasuk penambahan tingkat kedua di Tribune Selatan, yang dapat meningkatkan kapasitas menjadi 90.000. Rekor kehadiran stadion tercatat pada 1939, saat 76.962 orang menghadiri semifinal Piala FA antara Wolverhampton Wanderers dan Grimsby Town.
+	</p>
+</div>
+
+<div id="Sponsor" class="w3-container kota w3-animate-left"  style="display:none">
+<center> 
+	<h2>Sponsor</h2>
+	<img src='sponsor.png' width='350px'>
+</div>
+
+<div id="Berita" class="w3-container kota w3-animate-opacity"  style="display:none">
+<center> 
+	<h2>Berita Terbaru</h2>
+	<img src='Berita.jpg' width='550px'>
+	<p>
+		Manchester United Akan menghadapi Crystal Palace di kompetisi Premier League
+	</p>
+</div>
+
+<div id="By" class="w3-container kota w3-animate-fading"  style="display:none">
+<center> 
+	<h2>Website Dibuat Oleh</h2>
+	<img src='Foto.jpg' width='250px'>
+	<p>
+		Haikal Iman Firdaus
+	</p>
+	<p>NIM : 10122196 </p>
+</div>
+
+<div id="Toko" class="w3-container kota w3-animate-zoom"  style="display:none;">
+<center> 
+<h2>Produk</h2>
+	<div style="display: flex; flex-direction: row; justify-content: space-around;">
+		<div class="w3-animate-top">
+                <div style="margin-bottom: 10px; ">
+                    <img src="baju.jpg" width="120px" alt="">
+                    <h1 style="display: inline;" class="">Harga : 850rb</h1>
+                
+                </div>
+    
+                <div style="margin-bottom: 10px;">
+                    <img src="baju2.jpg" width="120px" alt="">
+                    <h1 style="display: inline;" class=""> Harga : 425rb</h1>
+    
+                </div>
+    
+                <div style="margin-bottom: 10px;"> 
+                    <img src="baju3.jpg" width="120px" alt="">
+                    <h1 style="display: inline;" class="">Harga : 850rb</h1>
+                
+                </div>
+    
+                <div style="margin-bottom: 10px;">
+                    <img src="baju4.jpg" width="120px" alt="">
+                    <h1 style="display: inline;" class="">Harga : 850rb</h1>
+                </div>
+		</div>
+	</div>
+</div>
+
+
+<div id="Jadwal" class="w3-container kota w3-animate-zoom"  style="display:none">
+<center> 
+	<h2>Jadwal Bermain</h2>
+	<img src='jadwal.png' width='550px'>
+</div>
+
+<div id="Pemilik" class="w3-container kota w3-animate-top"  style="display:none">
+<center> 
+	<h2>Pemilik Saham Manchester United</h2>
+	<img src='Glazer.jpg' width='550px'>
+	<p>
+		Keluarga Glazer sudah menjadi pemilik Manchester United sejak tahun 2005 silam.
+	</p>
+</div>
+
+
+<div class='w3-container' style='background-color:black; height:25px'>
+	<hr></hr>
+	<h1></h1>
+</div>
+
+<script>
+	console.log('Hello World')
+	function openKota(namakota) {
+		var i;
+		var x = document.getElementsByClassName("kota");
+		for (i = 0; i< x.length; i++) {
+			x[i].style.display = "none"; 
+			}
+		document.getElementById(namakota).style.display = "block";
+	}
+</script>
+
+</html>
